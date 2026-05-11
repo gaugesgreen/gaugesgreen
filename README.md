@@ -1,37 +1,38 @@
 # Gauges Green
 
-Production-shaped agent operating systems for real client work.
+Senior-operator practice. Public-safe AI harness.
 
-Gauges Green is a senior-operator practice run on an AI harness we built in
-house. This GitHub account is where we publish the public-safe parts of that
-harness: boot compilers, gates, scorecards, synthetic agents, and docs that show
-how the system works without exposing client data.
+![Gauges Green harness scorecard](https://www.gaugesgreen.com/harness/nine-pillars.png)
+
+Gauges Green helps companies get executive depth without a full-time hire. The
+practice runs on an AI harness we built in house to keep client context current,
+prepare meetings, check drafts, track proposals and pipeline, support billing
+and collections, and keep operators focused on delivery instead of admin.
+
+This GitHub account publishes the public-safe parts of that harness. The
+architecture is real. The data is synthetic.
 
 ## Start Here
 
-- [gauges-green](https://github.com/gaugesgreen/gauges-green): public harness
-  extraction with a runnable synthetic demo
-- [gaugesgreen.com/harness](https://www.gaugesgreen.com/harness): the strategy
-  and operating story behind the harness
+- Senior operators: start with the [harness overview](https://www.gaugesgreen.com/harness).
+- Builders: start with the [public harness demo](https://github.com/gaugesgreen/gauges-green).
 
 ```bash
 git clone https://github.com/gaugesgreen/gauges-green
 cd gauges-green
 ./setup
-./gg demo
+./gg run-demo
 ```
 
 ## What This Is
 
-GStack showed that coding agents get better when they have roles, workflows, and
-review routines instead of a blank prompt.
+Independent client work creates a second job around the work: context, meeting
+prep, follow-ups, proposals, billing, collections, pipeline, document production,
+and quality control.
 
-OpenClaw showed that personal agents get more useful when they have real local
-surfaces, tools, and message routing.
-
-Gauges Green is the next layer: an operating harness for client work. It is built
-for operators who need context, memory, quality gates, scorecards, and document
-production around real engagements.
+The harness supplies the operating layer around that work: compiled context,
+agent boundaries, source-fidelity gates, outbound-message checks, scorecards,
+and synthetic demos that show the loop without exposing client data.
 
 ## What We Publish
 
